@@ -33,21 +33,21 @@
         <div class="limiter">
           <div class="container-login100">
             <div class="wrap-login100">
-              <form class="login100-form validate-form">  
+              <form class="login100-form validate-form" action="validar-usu.php" method="post">  
                 <span class="login100-form-title p-b-43">
                   <img src="assets/img/img-logo.png" style="width: 450px" alt="">
                   <br><br>
                   <h2>Inicie Sesión Para Continuar</h2>
                 </span>
                 
-                <div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-                  <input class="input100" type="text" name="email">
+                <div class="wrap-input100 validate-input" data-validate = "Por favor, inserte su nombre de usuario">
+                  <input class="input100" type="text" name="user">
                   <span class="focus-input100"></span>
                   <span class="label-input100">Usuario</span>
                 </div>
                 
                 
-                <div class="wrap-input100 validate-input" data-validate="Password is required">
+                <div class="wrap-input100 validate-input" data-validate="Por favor, inserte una contraseña">
                   <input class="input100" type="password" name="pass">
                   <span class="focus-input100"></span>
                   <span class="label-input100">Contraseña</span>

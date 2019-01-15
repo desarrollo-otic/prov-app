@@ -1,4 +1,16 @@
-php<!DOCTYPE html>
+<?php 
+   //abrimos la sesión
+   session_start();
+
+   //Si la variable de sesión administrador está vacía
+   if (!isset($_SESSION['administrador'])) 
+   { 
+      //nos envía a la siguiente página
+      header("location: ../pages/acceso-denegado.php"); 
+  }
+?>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">

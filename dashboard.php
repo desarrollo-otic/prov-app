@@ -76,9 +76,14 @@
                 <ul class="nav navbar-nav navbar-right">
                     <!-- Call Search -->
                     <li><a href="javascript:void(0);" class="js-search" data-close="true"><i class="material-icons">search</i></a></li>
+                    <li><a href="javascript:void(0);" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="material-icons">person</i></a>
+                    <ul class="dropdown-menu">
+                            <li><a href="javascript:void(0);"><i class="material-icons">person</i>Perfil</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="logout.php"><i class="material-icons">input</i>Salir</a></li>
+                        </ul>
+                    </li>
                     <!-- #END# Call Search -->
-                    
-                    <!--<li class="pull-right"><a href="javascript:void(0);" class="js-right-sidebar" data-close="true"><i class="material-icons">more_vert</i></a></li>-->
                 </ul>
             </div>
         </div>
@@ -195,6 +200,12 @@
                         <a href="pages/ayuda.php">
                             <i class="material-icons">help</i>
                             <span>Ayuda</span>
+                        </a>                      
+                    </li>
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#defaultModal">
+                            <i class="material-icons">input</i>
+                            <span>Salir del Sistema</span>
                         </a>                      
                     </li>
             </div>
@@ -667,6 +678,25 @@
             </div>
         </div>
     </section>
+
+<!-- Modal Dialogs ====================================================================================================================== -->
+<!-- Default Size -->
+<div class="modal fade" id="defaultModal" tabindex="-4" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="" id="defaultModalLabel">Salir del Sistema</h3>
+                 </div>
+                <div class="modal-body">
+                       <h4>¿Está seguro de cerrar la sesión actual?</h4>
+                </div>
+                <div class="modal-footer">
+                    <a href="logout.php"><button type="button" class="btn btn-lg btn-success waves-effect">Aceptar</button></a>
+                    <button type="button" class="btn btn-lg btn-danger waves-effect" data-dismiss="modal">Cancelar</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Jquery Core Js -->
     <script src="assets/plugins/jquery/jquery.min.js"></script>

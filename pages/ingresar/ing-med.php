@@ -204,6 +204,12 @@
                             <span>Ayuda</span>
                         </a>                      
                     </li>
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#defaultModal2">
+                            <i class="material-icons">input</i>
+                            <span>Salir del Sistema</span>
+                        </a>                      
+                    </li>
             </div>
             <!-- #Menu -->
             <!-- Footer -->
@@ -742,6 +748,24 @@
                 <div class="modal-footer">
                     <button type="button" class="btn btn-success waves-effect">Aceptar</button>
                     <button type="button" class="btn btn-danger waves-effect" data-dismiss="modal">Cancelar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Default Size -->
+<div class="modal fade" id="defaultModal2" tabindex="-4" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="" id="defaultModalLabel">Salir del Sistema</h3>
+                 </div>
+                <div class="modal-body">
+                       <h4>¿Está seguro de cerrar la sesión actual?</h4>
+                </div>
+                <div class="modal-footer">
+                    <a href="../../logout.php"><button type="button" class="btn btn-lg btn-success waves-effect">Aceptar</button></a>
+                    <button type="button" class="btn btn-lg btn-danger waves-effect" data-dismiss="modal">Cancelar</button>
                 </div>
             </div>
         </div>

@@ -196,6 +196,12 @@
                             <span>Ayuda</span>
                         </a>                      
                     </li>
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#defaultModal">
+                            <i class="material-icons">input</i>
+                            <span>Salir del Sistema</span>
+                        </a>                      
+                    </li>
             </div>
             <!-- #Menu -->
             <!-- Footer -->
@@ -220,6 +226,25 @@
         </div>
     </div>
 </section>
+
+<!-- Modal Dialogs ====================================================================================================================== -->
+<!-- Default Size -->
+<div class="modal fade" id="defaultModal" tabindex="-4" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="" id="defaultModalLabel">Salir del Sistema</h3>
+                 </div>
+                <div class="modal-body">
+                       <h4>¿Está seguro de cerrar la sesión actual?</h4>
+                </div>
+                <div class="modal-footer">
+                    <a href="../logout.php"><button type="button" class="btn btn-lg btn-success waves-effect">Aceptar</button></a>
+                    <button type="button" class="btn btn-lg btn-danger waves-effect" data-dismiss="modal">Cancelar</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 <!-- Jquery Core Js -->
 <script src="../assets/plugins/jquery/jquery.min.js"></script>
