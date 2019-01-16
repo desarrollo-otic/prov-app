@@ -80,7 +80,7 @@
                     <ul class="dropdown-menu">
                             <li><a href="javascript:void(0);"><i class="material-icons">person</i>Perfil</a></li>
                             <li role="separator" class="divider"></li>
-                            <li><a href="logout.php"><i class="material-icons">input</i>Salir</a></li>
+                            <li><a href="#" data-toggle="modal" data-target="#defaultModal"><i class="material-icons">input</i>Salir</a></li>
                         </ul>
                     </li>
                     <!-- #END# Call Search -->

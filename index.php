@@ -8,6 +8,8 @@
     
     <!--Custom CSS-->
     <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/animsition/animsition.min.css">
 
     <!--Bootstrap CDN-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -35,7 +37,7 @@
             <div class="wrap-login100">
               <form class="login100-form validate-form" action="validar-usu.php" method="post">  
                 <span class="login100-form-title p-b-43">
-                  <img src="assets/img/img-logo.png" style="width: 450px" alt="">
+                  <img src="assets/img/img-logo.png" style="width: 445px" alt="">
                   <br><br>
                   <h2>Inicie Sesión Para Continuar</h2>
                 </span>
@@ -105,8 +107,10 @@
 
 <!--Scripts-->
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="assets/css/animsition/js/animsition.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<script src="assets/js/main.js"></script>
 
 </html>
