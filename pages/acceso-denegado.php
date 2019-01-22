@@ -233,7 +233,7 @@
                     <br><br>
                     <h1>ACCESO DENEGADO</h1>
                     <br><br>
-                    <h4>NO POSEE LOS PERMISOS SUFICIENTES PARA ACCEDER A ESTA PÁGINA</h4>
+                    <h4>NO POSEE LOS PERMISOS SUFICIENTES PARA ACCEDER A ESTA SECCIÓN</h4>
                     <br>
                     <h4>COMUNIQUESE CON EL ADMINISTRADOR DEL SISTEMA.</h4>
                     <br><br>

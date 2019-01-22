@@ -1,3 +1,7 @@
+<?php
+require_once("session.php");
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -6,9 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <title>Proveeduría del Estado Zulia | Inicio</title>
-    <!-- Favicon-->
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-
+   
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
@@ -685,15 +687,17 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h3 class="" id="defaultModalLabel">Salir del Sistema</h3>
+                    <h4 class="modal-title" id="defaultModalLabel">Salir del Sistema</h4>
                  </div>
+                 <br>
                 <div class="modal-body">
                        <h4>¿Está seguro de cerrar la sesión actual?</h4>
                 </div>
                 <div class="modal-footer">
-                    <a href="logout.php"><button type="button" class="btn btn-lg btn-success waves-effect">Aceptar</button></a>
-                    <button type="button" class="btn btn-lg btn-danger waves-effect" data-dismiss="modal">Cancelar</button>
+                    <a href="logout.php"><button type="button" class="btn btn-lg btn-success waves-effect">ACEPTAR</button></a>
+                    <button type="button" class="btn btn-lg btn-danger waves-effect" data-dismiss="modal">CANCELAR</button>
                 </div>
+                <br>
             </div>
         </div>
     </div>

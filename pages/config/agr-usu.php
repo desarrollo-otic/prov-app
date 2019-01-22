@@ -1,9 +1,15 @@
-<?php 
+<?php
    //abrimos la sesión
    session_start();
 
+   //Si las variables de sesión administrador y transcriptor están vacías
+   if(!isset($_SESSION['administrador']) && !isset($_SESSION['transcriptor']) !="0") {
+       //nos envía a la siguiente página
+       header('Location: ../errores.php');
+    }
+   
    //Si la variable de sesión administrador está vacía
-   if (!isset($_SESSION['administrador'])) 
+   else if (!isset($_SESSION['administrador'])) 
    { 
       //nos envía a la siguiente página
       header("location: ../acceso-denegado.php"); 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,8 +21,8 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
-
 </head>
+
 <body>
     <style>
         /* Make the image fully responsive */
@@ -38,7 +39,7 @@
               <form class="login100-form validate-form" action="validar-usu.php" method="post">  
                 <span class="login100-form-title p-b-43">
                   <img src="assets/img/img-logo.png" style="width: 445px" alt="">
-                  <br><br>
+                  <br><br><br>
                   <h2>Inicie Sesión Para Continuar</h2>
                 </span>
                 
@@ -49,7 +50,7 @@
                 </div>
                 
                 
-                <div class="wrap-input100 validate-input" data-validate="Por favor, inserte una contraseña">
+                <div class="wrap-input100 validate-input" data-validate="Por favor, inserte su contraseña">
                   <input class="input100" type="password" name="pass">
                   <span class="focus-input100"></span>
                   <span class="label-input100">Contraseña</span>
@@ -71,12 +72,12 @@
                 </div>
                 <br>
                 <div style="text-align:center">
-                    <hr style="background-color:black"><h6>2019 - Secretaría de Salud del Estado Zulia</h6>
-                    <h6>R.I.F.: G-200048492</h6>
+                    <hr style="background-color:black"><h6><b>2019 - Secretaría de Salud del Estado Zulia</b></h6>
+                    <h6><b>R.I.F.: G-200048492</b></h6>
                 </div>
                 
               </form>
-      
+
                   <div class="login100-more">
                   <div id="demo" class="carousel slide" data-ride="carousel">
       
