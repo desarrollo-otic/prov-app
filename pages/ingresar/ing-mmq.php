@@ -186,13 +186,13 @@
                             </a>
                             <ul class="ml-menu">
                                 <li>
-                                    <a href="../config/agr-usu.php">Agregar Usuarios</a>
+                                    <a href="../conf/agr-usu.php">Agregar Usuarios</a>
                                 </li>
                                 <li>
-                                    <a href="../config/cam-cont.php">Cambiar Contraseña</a>
+                                    <a href="../conf/cam-cont.php">Cambiar Contraseña</a>
                                 </li>
                                 <li>
-                                    <a href="../config/carg-inv.php">Cargar Inventario Inicial</a>
+                                    <a href="../conf/carg-inv.php">Cargar Inventario Inicial</a>
                                 </li>
                             </ul>
                         </li>

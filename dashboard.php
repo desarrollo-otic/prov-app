@@ -188,13 +188,13 @@ require_once("session.php");
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="pages/config/agr-usu.php">Agregar Usuarios</a>
+                                <a href="pages/conf/agr-usu.php">Agregar Usuarios</a>
                             </li>
                             <li>
-                                <a href="pages/config/cam-cont.php">Cambiar Contraseña</a>
+                                <a href="pages/conf/cam-cont.php">Cambiar Contraseña</a>
                             </li>
                             <li>
-                                <a href="pages/config/carg-inv.php">Cargar Inventario Inicial</a>
+                                <a href="pages/conf/carg-inv.php">Cargar Inventario Inicial</a>
                             </li>
                         </ul>
                     </li>
